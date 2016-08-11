@@ -25,8 +25,6 @@ namespace NuGetCleaner
 
             foreach (var package in packages)
             {
-                // Dont need to do that as files are already extracted!!
-                //File.Copy($"{packagesDirectory}{package.DirectoryName}", $"{packagesDirectory}{package.DirectoryName.Replace("nupkg", "zip")}");
             }
         }
 
